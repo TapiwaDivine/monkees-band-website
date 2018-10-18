@@ -1,0 +1,212 @@
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: #000;
+}
+
+
+/*---------------------------navbar------------------------*/
+.my-navbar {
+    position: relative;
+    min-height: 50px;
+    width: 100%;
+}
+
+.nav.navbar-nav li a{
+   color: #C5B358;
+}   
+
+.nav.navbar-nav li a:hover {
+    color: yellow;
+}
+/*----------------Background Image-------------------------------*/
+
+.main {
+    position: relative;
+    text-align: center;
+    
+}
+.bg {
+    height: 100vh;
+    background: url('/images/monkeesss.jpg') no-repeat center center;
+    background-size: 96% 75%;
+    background-position: right top;
+    opacity: 0.7;
+}
+ 
+.bg .bg-text {
+    position: absolute;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    font-weight: bold;
+    bottom: 200px;
+    right: 10px;
+    font-size: 50px;
+    background: rgb(0, 0, 0.6);
+    opacity: 0.8;
+    color: #FFDF00;
+    width: 100%;
+    
+}
+
+/*---------------------------------Coming Soon Info------------------------*/
+
+
+.main-tours {
+    text-transform: uppercase;
+    color: #FFDF00;
+    font-weight: bold;
+    font-family: 'Chewy', cursive;
+}
+.tourdates {
+    text-transform: uppercase;
+    color: #8B0000;
+    font-weight: bold;
+    font-family: 'Chewy', cursive;
+}
+
+.datesinfo {
+    color: #fff; 
+}
+
+.separator {
+    width : 70px;
+}
+
+
+/*---------------------------------News section------------------------*/
+
+
+
+.img-responsive {
+    height: 200px;
+    width: 350px;
+}
+
+.heading {
+    text-align: center;
+    font-family: 'Chewy', cursive;
+    background-color: #C5B358;
+    margin-bottom: 40px;
+}
+
+.heading a {
+    color: #000;
+}
+
+.heading a:hover {
+    color: #fff;
+}
+
+.news-heading {
+    margin-bottom: 10px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.news-heading a {
+    font-weight: bold;
+    color: #C5B358;
+}
+.news-heading a:hover {
+    color: red;
+}
+
+.news-text {
+    color: #fff;
+    text-align: center;
+}
+.news-text a {
+    font-weight: bold;
+    color: #228B22;
+    text-align: center;
+}
+
+.news-text a:hover {
+    color: red;
+}
+/*---------------------------------Tour------------------------*/
+
+.cities a {
+    font-weight: bold;
+    color: #C5B358;
+    
+}
+.cities a:hover {
+    color: red;
+}
+
+.tour {
+    color: #fff;
+}
+
+.btn-warning:hover {
+    color: #228B22;
+}
+
+/*---------------------------------band----------------------------*/
+
+.band-profile {
+    background: url("/images/bandmonkees.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 360px;
+    opacity: 0.8;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+}
+
+.davis-profile {
+    background: url("/images/davisjones.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 360px;
+    opacity: 0.8;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+}
+
+
+.micky-profile {
+    background: url("/images/micky.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 360px;
+    opacity: 0.8;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+}
+
+.peter-profile {
+    background: url("/images/peter.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 360px;
+    opacity: 0.8;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+}
+
+.micheal-profile {
+    background: url("/images/micheal.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 360px;
+    opacity: 0.8;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+}
