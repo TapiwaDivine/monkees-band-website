@@ -16,11 +16,23 @@ body {
 }   
 
 .nav.navbar-nav li a:hover {
-    color: yellow;
+    color: #000;
+    background-color: #FFDF00;
 }
+
+.navbar-inverse .navbar-nav>.active a{
+    color: #000;
+    background-color: #C5B358;
+}
+
+.navbar-inverse .navbar-nav>.active a:hover{
+    color: #000;
+    background-color: #C5B358;
+}
+
 /*----------------Background Image-------------------------------*/
 
-.main {
+.main { 
     position: relative;
     text-align: center;
     
@@ -46,6 +58,11 @@ body {
     color: #FFDF00;
     width: 100%;
     
+}
+
+/*---------------------------footer------------------------*/
+.row {
+    border-color: #C5B358;
 }
 
 /*---------------------------------Coming Soon Info------------------------*/
@@ -135,7 +152,7 @@ body {
     color: red;
 }
 
-.tour {
+.info {
     color: #fff;
 }
 
@@ -209,4 +226,67 @@ body {
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
     -o-transition: all .5s ease-in-out;
+}
+
+.profile-heading {
+    color: #000;
+    background-color: #C5B358;
+    font-family: 'Chewy', cursive;
+}
+
+/*-------------------------------------Social Media Links---------------------*/
+
+.fa {
+    width: 32px;
+    height: 32px;
+    padding: 12px;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    text-decoration: none;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-google-plus {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #fb3958;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa:hover {
+    color: #000;
+    background-color: #fff;
 }
