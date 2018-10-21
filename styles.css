@@ -354,3 +354,7 @@ body {
     background-color: #fff;
    color: red;
 }
+
+.footer-booking a {
+    color: #fff;
+}
