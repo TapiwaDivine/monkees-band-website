@@ -32,7 +32,7 @@ body {
 /*-----------------------Media queries---------------------------*/
 @media (min-width: 991px) { 
     .bg:hover {
-        height: 100vh;
+        height: 120vh;
         background: url('images/monkeesss.jpg') no-repeat center center;
         -webkit-background-size: 100% 75%;
         background-size: 100% 75%;
@@ -50,7 +50,7 @@ body {
     
 }
 .bg {
-    height: 95vh;
+    height: 110vh;
     background: url('images/monkeesss.jpg') no-repeat center center;
     -webkit-background-size: 96% 75%;
     background-size: 96% 75%;
@@ -276,10 +276,10 @@ body {
 .fa {
     width: 32px;
     height: 32px;
-    padding: 12px;
+    padding: 9px;
     border-radius: 50%;
-    font-size: 13px;
-    line-height: 7px;
+    font-size: 16px;
+    line-height: 11px;
     text-align: center;
     text-decoration: none;
     -moz-transition: all 0.35s ease-in-out;
@@ -303,7 +303,7 @@ body {
 }
 
 
-.fa-google-plus {
+.fa-pinterest {
   background: #dd4b39;
   color: white;
 }
@@ -327,15 +327,11 @@ body {
   color: white;
 }
 
+/*----------------------- Buttons-----------------------*/
 
-.btn-success:hover {
-   background-color: #fff;
-   color: #5cb85c;
-}
-    
 .btn-warning:hover {
     background-color: #fff;
-   color: #FFA500;
+    color: orange;
 }
 
 .btn-danger:hover {
@@ -343,6 +339,19 @@ body {
    color: red;
 }
 
+.btn-success:hover {
+   background-color: #fff;
+   color: #5cb85c;
+}
+
+
+.btn-group-lg>.btn, .btn-lg {
+    padding: 20px 50px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 10px;
+}
+/*-----------------------Footer-----------------------*/
 .footer-booking a {
     color: #fff;
 }

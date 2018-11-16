@@ -25,15 +25,15 @@
             </div>
             <div class="collapse navbar-collapse" id="navbar-container">
                 <ul class="nav navbar-nav">
-                    <li><a href="index.html">Homes</a></li>
-                    <li class="active"><a href="music.html">Music</a></li>
+                    <li class="active"><a href="index.html">Homes</a></li>
+                    <li><a href="music.html">Music</a></li>
                     <li><a href="band.html">Band</a></li>
-                    <li><a href="photos-videos.html">Photos+Videos</a></li>
+                    <li><a href="media.html">Media</a></li>
                     <li><a href="shop.html">Shop</a></li>
                 </ul>
                 <ul class="inline-list navbar-nav navbar-right">
-                    <button type="button" class="nav-btn btn-success" style="margin-top: 10px">Login</button>
-                    <button type="button" class="nav-btn btn-danger" style="margin-top: 10px">Join Fanclub</button>
+                    <span><button class="btn btn-sm btn--cta btn-success" data-toggle='modal' data-target='#loginModal'>Login!</button></span>
+                    <span><button class="btn btn-sm btn--cta btn-danger" data-toggle='modal' data-target='#joinFanclubModal'>Join Fanclub!</button></span>
                 </ul>
             </div>
         </nav>
@@ -84,7 +84,6 @@
                         <audio controls style="margin-top: 15px">
                             <source src="audio/DaydreamBelievermp3.mp3" type="audio/mpeg">
                         </audio>
-                        
                 </div>
                 <div class="col-md-3" align=center>
                     <img class="img-responsive" src="images/monkeescover.jpg">
@@ -114,47 +113,37 @@
         <div class="footer-top container">
             <div class="row">
                 <hr>
-                <div class="col-md-4 mb-md-5 mb-3" align="center" style="margin-bottom: 20px;">
+                <div class="col-md-4 mb-md-3 mb-2" style="margin-top: 30px" align="center">
                     <a href="#" class="btn btn-success btn-rounded" style="margin-bottom: 15px">Make A Booking!</a>
                     <p class="footer-booking"><a href="#"><span class="glyphicon glyphicon-envelope"></span>Email Us: info@monkees.com</a></p>
                     <p class="footer-booking"><a href="#"><span class="glyphicon glyphicon-earphone"></span>Contact Us: 555-12345678</a></p>
                 </div>
-                <div class="col-md-4 mb-md-5 mb-3" style="margin-bottom: 20px;">
-                    <p class="social-links" align="center" style="color: #fff;"><u>FOLLOW US!</u></p>
+                
+<!-----------------------------------Social buttons------------------------------------------------------>
+                <div class="col-md-4 mb-md-3 mb-2" style="margin-top: 30px">
+                    <p class="inline-block"  align="center" style="color: #fff;"><u>FOLLOW US ON SOCIAL MEDIA!!</u></p>
                     <ul class="list-unstyled list-inline text-center">
                         <li class="list-inline-item">
-                            <a class="btn-floating btn-fb mx-1">
-                                <i class="fa fa-facebook"></i>
-                            </a>
+                           <a href="https://www.facebook.com/TheMonkees/" class="fa fa-facebook"></a>
                         </li>
                         <li class="list-inline-item">
-                            <a class="btn-floating btn-li mx-1">
-                                <i class="fa fa-linkedin"></i>
-                            </a> 
+                            <a href="#" class="fa fa-linkedin"></a>
                         </li>
                         <li class="list-inline-item">
-                            <a class="btn-floating btn-tw mx-1">
-                                <i class="fa fa-twitter"></i>
-                            </a>
+                            <a href="https://twitter.com/themonkees?lang=en" class="fa fa-twitter"></a>
                         </li>
                         <li class="list-inline-item">
-                            <a class="btn-floating btn-gplus mx-1">
-                                <i class="fa fa-google-plus"></i>
-                            </a>
+                            <a href="#" class="fa fa-instagram"></a>
                         </li>
                         <li class="list-inline-item">
-                            <a class="btn-floating btn-instagram mx-1">
-                                <i class="fa fa-instagram"></i>
-                            </a>
+                            <a href="#" class="fa fa-pinterest"></a>
                         </li>
                         <li class="list-inline-item">
-                            <a class="btn-floating btn-youtube mx-1">
-                                <i class="fa fa-youtube"></i>
-                            </a>
+                           <a href="#" class="fa fa-youtube"></a>
                         </li>
                     </ul>
                 </div>
-                <div class="col-md-4 mb-md-5 mb-3">
+                <div class="col-md-4 mb-md-5 mb-3" style="margin-top: 30px">
                     <ul class="list-unstyled list-inline text-center py-2">
                       <li class="list-inline-item">
                         <h5 class="mb-1" style="color: #fff;">Sign up for Newsletter</h5>
@@ -168,20 +157,18 @@
             <hr>
         </div>
         
-        <!-- Social buttons -->
-    
         <!-- Copyright -->
         <div class="copyright container">
             <p class"inline-block"  align="center" style="color: #fff;">All Rights Reserved</p>
                 <ul class="list-unstyled list-inline text-center">
                     <li class="terms-section">
-                        <a href="#" style="color : #fff">Terms & Conditions</a>
+                        <a href="http://piecesof8music.com/terms/" target="_blank" style="color : #fff">Terms & Conditions</a>
                     </li>
                     <li class="terms-section">
-                        <a href="#"  style="color : #fff">Privacy Policy</a>
+                        <a href="https://musicformakers.com/privacy/" target="_blank" style="color : #fff">Privacy Policy</a>
                     </li>
                     <li class="terms-section">
-                        <a href="#"  style="color : #fff">Why Music Matters</a>
+                        <a href="http://www.whymusicmatters.com/whymusicmatters.com/index.html" target="_blank" style="color : #fff;">Why Music Matters</a>
                     </li>
                 </ul>
         </div>
@@ -191,6 +178,57 @@
             <a href="index.html" style="color : #fff">themonkeesband.com</a>
         </div>
     </footer>
+    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Login!</h4>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="email">Email address</label>
+                            <input type="email" class="form-control" id="email" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Password">
+                        </div>
+                        <button type="submit" class="btn btn-success">Login!</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="joinFanclubModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Join Monkees Fanclub</h4>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="email">Email address</label>
+                            <input type="email" class="form-control" id="email" placeholder="Email">
+                            <p class="help-block">We'll never share your email address with anyone</p>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Password">
+                        </div>
+                        <div class="form-group">
+                            <label for="passwordRepeat">Repeat Password</label>
+                            <input type="password" class="form-control" id="passwordRepeat" placeholder="Repeat Your Password">
+                        </div>
+                        <button type="submit" class="btn btn-danger">Join</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>   
 </body>
