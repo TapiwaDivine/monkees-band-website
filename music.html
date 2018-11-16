@@ -25,8 +25,8 @@
             </div>
             <div class="collapse navbar-collapse" id="navbar-container">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="index.html">Homes</a></li>
-                    <li><a href="music.html">Music</a></li>
+                    <li><a href="index.html">Homes</a></li>
+                    <li class="active"><a href="music.html">Music</a></li>
                     <li><a href="band.html">Band</a></li>
                     <li><a href="media.html">Media</a></li>
                     <li><a href="shop.html">Shop</a></li>
@@ -50,25 +50,41 @@
                     <img class="img-responsive" src="images/albumhq.jpg">
         			<h3 class="cities"><a href="#">The Headquaters</a></h3>
         			    <p class="info">Headquarters is the third album issued by the Monkees and the first with substantial songwriting and instrumental performances by members of the group itself, rather than by session musicians and professional songwriters. <br> Released : 1967</p>
-            		<button type="button" class="btn btn-success"><i class="fa fa-headphones" aria-hidden="true"></i>Click to Listen</button>
+                        <audio id="myAudio">
+                            <source src="audio/DaydreamBelievermp3.mp3" type="audio/mpeg">
+                        </audio>
+                        <button onclick="playAudio()" type="button" class="btn btn-success">Click to Listen</button>
+                        <button onclick="pauseAudio()" type="button" class="btn btn-danger">Pause/Stop</button>
                 </div>
                 <div class="col-md-3" align=center>
                     <img class="img-responsive" src="images/monkalb.jpg">
             		<h3 class="cities"><a href="#">Good Times</a></h3>
         			    <p class="info">Good Times! is the twelfth studio album by The Monkees. Produced mainly by Adam Schlesinger (with some additional bonus tracks produced by Andrew Sandoval), the album was recorded to commemorate the band's 50th anniversary.<br> Released : 2016</p>
-            		<button type="button" class="btn btn-success"><i class="fa fa-headphones" aria-hidden="true"></i>Click to Listen</button>
+                        <audio id="myAudio">
+                            <source src="#" type="audio/mpeg">
+                        </audio>
+                        <button onclick="playAudio()" type="button" class="btn btn-success">Click to Listen</button>
+                        <button onclick="pauseAudio()" type="button" class="btn btn-danger">Pause/Stop</button>
             	</div>
             	<div class="col-md-3" align=center>
             	    <img class="img-responsive" src="images/monkealb.jpg">
             		<h3 class="cities"><a href="#">Changes</a></h3>
         			    <p class="info">Changes is the ninth studio album by the Monkees. The album was issued after Michael Nesmith's exit from the band, leaving only Micky Dolenz and Davy Jones to fulfill the recording contract they signed in the mid-1960s. <br> Released : June 1970</p>
-            		<button type="button" class="btn btn-success"><i class="fa fa-headphones" aria-hidden="true"></i>Click to Listen</button>
+            	        <audio id="myAudio">
+                            <source src="#" type="audio/mpeg">
+                        </audio>
+                        <button onclick="playAudio()" type="button" class="btn btn-success">Click to Listen</button>
+                        <button onclick="pauseAudio()" type="button" class="btn btn-danger">Pause/Stop</button>
             	</div>
             	<div class="col-md-3" align=center>
             	    <img class="img-responsive" src="images/goldden.jpg">
             		<h3 class="cities"><a href="#">Golden Album Vol.2</a></h3>
         			    <p class="info">A rare compilation LP which was released in Japan. I consist of 2 albums to suit custumers who would want to have an compilation of their two favourite albums on one LP and can now be found in CD format. <br>Released : 1967 </p>
-            		<button type="button" class="btn btn-success"><i class="fa fa-headphones" aria-hidden="true"></i>Click to Listen</button>
+                        <audio id="myAudio">
+                            <source src="#" type="audio/mpeg">
+                        </audio>
+                        <button onclick="playAudio()" type="button" class="btn btn-success">Click to Listen</button>
+                        <button onclick="pauseAudio()" type="button" class="btn btn-danger">Pause/Stop</button>
                 </div>
             </div>
         </div>
@@ -80,29 +96,42 @@
                     <img class="img-responsive" src="images/monkeee-missinglink.jpg">
         			<h3 class="cities"><a href="#">Missing Link</a></h3>
         			    <p class="info">Missing Links is a compilation album of rare and previously unreleased songs by The Monkees <br>issued by Rhino Records in 1987</p>
-                        <button type="button" class="btn btn-success"><i class="fa fa-headphones" aria-hidden="true"></i>Click to Listen</button>
-                        <audio controls style="margin-top: 15px">
-                            <source src="audio/DaydreamBelievermp3.mp3" type="audio/mpeg">
+                        <audio id="myAudio">
+                            <source src="#" type="audio/mpeg">
                         </audio>
+                        <button onclick="playAudio()" type="button" class="btn btn-success">Click to Listen</button>
+                        <button onclick="pauseAudio()" type="button" class="btn btn-danger">Pause/Stop</button>
                 </div>
                 <div class="col-md-3" align=center>
                     <img class="img-responsive" src="images/monkeescover.jpg">
             		<h3 class="cities"><a href="#">Classics Collection</a></h3>
         			    <p class="info">THE MONKEES 50 is a three-CD set packed with 50 unforgettable songs from the band’s historic career, including “She Makes Me Laugh” and “You Bring The Summer” from GOOD TIMES! <br>Release: Augst 2016</p>
-            		<button type="button" class="btn btn-success"><i class="fa fa-headphones" aria-hidden="true"></i>Click to Listen</button>
+            		    <audio id="myAudio">
+                            <source src="#" type="audio/mpeg">
+                        </audio>
+                        <button onclick="playAudio()" type="button" class="btn btn-success">Click to Listen</button>
+            	        <button onclick="pauseAudio()" type="button" class="btn btn-danger">Pause/Stop</button>
             	</div>
             	<div class="col-md-3" align=center>
             	    <img class="img-responsive" src="images/monkeesgha.jpg">
             		<h3 class="cities"><a href="#">The Very Best Of The Monkees</a></h3>
         			    <p class="info">Monkeemania (The Very Best of the Monkees) is a two-disc Monkees compilation released in 2011. It contains 57 of The Monkees' songs including hit singles,album tracks and rarities <br>Release: May 16, 2011</p>
-            		<button type="button" class="btn btn-success"><i class="fa fa-headphones" aria-hidden="true"></i>Click to Listen</button>
+            		    <audio id="myAudio">
+                            <source src="#" type="audio/mpeg">
+                        </audio>
+                        <button onclick="playAudio()" type="button" class="btn btn-success">Click to Listen</button>
+            	        <button onclick="pauseAudio()" type="button" class="btn btn-danger">Pause/Stop</button>
             	</div>
             	<div class="col-md-3" align=center>
             	    <img class="img-responsive" src="images/monkeesalbum.jpg">
             		<h3 class="cities"><a href="#">Greatest Hits</a></h3>
         			    <p class="info">The Monkees' 1995 Greatest Hits album was the third so titled to date. It was issued when Rhino Records took over the Monkees' catalog, and was intended to replace the existing Arista compilations.<br>Release: 1995 </p>
-            		<button type="button" class="btn btn-success"><i class="fa fa-headphones" aria-hidden="true"></i>Click to Listen</button>
-            	</div>
+                        <audio id="myAudio">
+                            <source src="#" type="audio/mpeg">
+                        </audio>
+                        <button onclick="playAudio()" type="button" class="btn btn-success">Click to Listen</button>
+                        <button onclick="pauseAudio()" type="button" class="btn btn-danger">Pause/Stop</button>
+                </div>
             </div>
         </div>
     </section>
@@ -229,6 +258,16 @@
             </div>
         </div>
     </div>
+<script>
+    var x =document.getElementById("myAudio");
+    function playAudio() {
+        x.play();
+    }
+    function pauseAudio() {
+        x.pause();
+    }
+    
+</script>
 <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>   
 </body>
