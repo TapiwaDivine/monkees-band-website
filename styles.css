@@ -358,3 +358,8 @@ body {
     color: #fff;
 }
 
+hr{
+    margin-bottom: 20px;
+    border: 2px;
+    border-top: 3px solid #eee;
+}
