@@ -10,10 +10,12 @@ body {
     position: absolute;
     min-height: 50px;
     width: 100%;
+    
 }
 
 .nav.navbar-nav li a{
    color: #C5B358;
+   font-weight: bold;
 }   
 
 .nav.navbar-nav li a:hover {
