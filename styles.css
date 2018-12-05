@@ -99,12 +99,6 @@ body {
     font-weight: bold;
     font-family: 'Chewy', cursive;
 }
-.tourdates {
-    text-transform: uppercase;
-    color: #8B0000;
-    font-weight: bold;
-    font-family: 'Chewy', cursive;
-}
 
 .datesinfo {
     color: #fff; 
@@ -198,23 +192,20 @@ body {
 }
 
 .band-profile {
-    background: url("images/bandmonkees.jpg");
+    background: url(images/bandmonkees.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    min-height: 360px;
+    min-height: 425px;
+    margin-top: 20px;
 }
 
 .davis-profile {
-    background: url("images/davisjones.jpg");
+    background: url(images/davisjones.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    min-height: 360px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -o-transition: all .5s ease-in-out;
+    min-height: 450px;
 }
 
 
@@ -223,13 +214,10 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    min-height: 360px;
+    min-height: 425px;
     padding-right: 40px;
     padding-left: 40px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -o-transition: all .5s ease-in-out;
+    
 }
 
 .peter-profile {
@@ -237,13 +225,10 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    min-height: 360px;
+    min-height: 425px;
     padding-right: 40px;
     padding-left: 40px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -o-transition: all .5s ease-in-out;
+   
 }
 
 .micheal-profile {
@@ -251,13 +236,10 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    min-height: 360px;
+    min-height: 425px;
     padding-right: 40px;
     padding-left: 40px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    -o-transition: all .5s ease-in-out;
+   
 }
 
 .profile-heading {
@@ -359,7 +341,6 @@ body {
 }
 
 hr{
-    margin-bottom: 20px;
     border: 2px;
     border-top: 3px solid #eee;
 }
