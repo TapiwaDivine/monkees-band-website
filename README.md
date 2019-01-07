@@ -1,16 +1,16 @@
-# Monkeee Band Website
+# Monkees Band Website
 This project is a website for the Monkees Band. 
 
 ## Content Table
 
 1. [UX](#UX)
 1. [Features](#Features)
-+ 1. [Existing Features](#Existing Features)
-+ 1. [Features Left to Implement](#Features Left to Implement)
-1. [Technologies Used](#Technologies Used)
-1. [Testing](#Testing)
-1. [Credits](#Credits)
-+ 1. [Media](#Media)
++ 1. [Existing Features](#existing-features)
++ 1. [Features Left to Implement](#features-left-to-implement)
+1. [Technologies Used](#technologies-used)
+1. [Testing](#testing)
+1. [Credits](#credits)
++ 1. [Media](#media)
 + 1. [Acknowledgements](#acknowledgements)
 
 
