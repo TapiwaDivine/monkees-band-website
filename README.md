@@ -1,11 +1,25 @@
-# Website for Monkeee Band 
-This project is a website for the Monkees Band. This is my very first website that i created on my own under the supervision of my mentor. Though i feel that i could have done better, this project was a journey of discovering the details and research that are required to in the frontend of a website. It is far the most insightful and empowering part of aquiring knowledge in the journey of becoming a good developer
-UX
+# Monkeee Band Website
+This project is a website for the Monkees Band. 
+
+## Content Table
+
+1. [UX] (#UX)
+1. [Features] (#Features)
++ 1. [Existing Features] (#Existing Features)
++ 1. [Features Left to Implement] (#Features Left to Implement)
+1. [Technologies Used] (#Technologies Used)
+1. [Testing] (#Testing)
+1. [Credits] (#Credits)
++ 1. [Media] (#Media)
++ 1. [Acknowledgements] (#acknowledgements)
+
+
+## UX
 I selected black as the theme color of the website because according to Neil Patel (co-founder of Neil Patel Digital) on his blog on psychology of color he higlighted that "Black adds a sense of luxury and value"  and also quoting an article which says black is the color of “timeless, classic”. I wanted to give a feel of luxury and timelessness to the webite and you colors like yellow, gold and orange to give a mix of excitement and attention to the important information or the buttons to buy. The website give the fans an opportunity to get involved with the option to Join the Fanclub and login if they are already members. Instead of having a home page, then tours page and news page i decided to have all these important features on the same page. This was meant to make the home page informative at first glance and it was also meant limit the number of pages that were going to be on the website. I didn't want the users to have too many pages to go through and end up boring them or making the user lose interest. I put a hovering effect on the first  back ground photo to give users a wow experience when the mouse hovers over the picture or  the booking button. As a user i wouldn't want a website that gives information and get me involved as a fan as well which i think both these matter have been addressed through the sign up for newsletter and joining the fan club. More over the shop caters for all the purchases the user/fans may want from merchandise, downloading and music ordering. 
 - https://app.moqups.com//tdchipatiko07@gmail.com/7aw4CB4xje/edit/page/ad64222d5
 i used this mock up plat form to draw my first plan but i discovered it was eating up most of my time, also the number of pages that i had drawn up were to many given the parameters given in the assignment and had a change of mind on the set up i wanted. So i ended up drawing up diagram some sketchy diagrams that gave me and direction on what i was creating.
 
-### Features
+## Features
 
 ###### Existing Features
 Feature 1 - I copied a inverse navbar from getbootstrap.com which i twirked a little bit  to put a Band Logo image.
@@ -25,7 +39,7 @@ Also to have 3 tiers of memberships which will give different benefits to the fa
 We also hope to develop and app for the fans to access all the band material and give the and exlusive insight in the band.
 
 
-### Technologies Used
+## Technologies Used
 
 On the project i used bootstrap to structure the website columns and make it fully responsive.
 I also used font-awesome to give some nice decorations when necessary, i used bootstrap Carousel for photo navigation ,also modals forms for the login and Joinfanclub button and also javascript for the music on click music button
