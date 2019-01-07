@@ -3,15 +3,15 @@ This project is a website for the Monkees Band.
 
 ## Content Table
 
-1. [UX] (#UX)
-1. [Features] (#Features)
-+ 1. [Existing Features] (#Existing Features)
-+ 1. [Features Left to Implement] (#Features Left to Implement)
-1. [Technologies Used] (#Technologies Used)
-1. [Testing] (#Testing)
-1. [Credits] (#Credits)
-+ 1. [Media] (#Media)
-+ 1. [Acknowledgements] (#acknowledgements)
+1. [UX](#UX)
+1. [Features](#Features)
++ 1. [Existing Features](#Existing Features)
++ 1. [Features Left to Implement](#Features Left to Implement)
+1. [Technologies Used](#Technologies Used)
+1. [Testing](#Testing)
+1. [Credits](#Credits)
++ 1. [Media](#Media)
++ 1. [Acknowledgements](#acknowledgements)
 
 
 ## UX
