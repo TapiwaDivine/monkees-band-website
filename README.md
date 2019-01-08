@@ -18,24 +18,24 @@ This project is a website for the Monkees Band.
 
 ## UX
 
-- This Website is for the Monkees Band who want to connect with fans and potential fans through:
-+  - latest news about the band
-+  - Information about tours and concert dates
-+  - Getting to know the Band and its members through profiling
-+  - Visitors will be able to Join the Fanclub or login to their account if they are already part of the Fanclub
-+  - The is also an option to sign up for newsletters
-+  - visitors will also be able to follow the band via official social media handles
-
-- Sales: On this website visitor will be able to: 
-+  - purchase cheaper tickets to up coming concerts.
-+  - listen to the monkees music on website and purchase music. 
-+  - purchase monkees merchandise from the website shop page.
-+  - book the band to perfom at their wedding.
+1. This Website is for the Monkees Band who want to connect with fans and potential fans through:
+    +  - latest news about the band
+    +  - Information about tours and concert dates
+    +  - Getting to know the Band and its members through profiling
+    +  - Visitors will be able to Join the Fanclub or login to their account if they are already part of the Fanclub
+    +  - The is also an option to sign up for newsletters
+    +  - visitors will also be able to follow the band via official social media handles
+    
+2. Sales: On this website visitor will be able to: 
+    +  - purchase cheaper tickets to up coming concerts.
+    +  - listen to the monkees music on website and purchase music. 
+    +  - purchase monkees merchandise from the website shop page.
+    +  - book the band to perfom at their wedding.
   
-- Colours : I selected black as the theme color of the website because "Black adds a sense of luxury and value" and “ Black is timeless & classic”. Also yellow, gold and orange give a mix of excitement and attention to the important information and the buttons to buy
-- Pages : Instead of having a home page, then tours page and news page i decided to have all these important features on the same page. This was meant to make the home page informative at first glance and it was also meant limit the number of pages that were going to be on the website. I didn't want the users to have too many pages to go through and end up boring them or making the user lose interest. More over the shop caters for all the purchases the user/fans may want from merchandise, downloading and music ordering.
-- Other UX : I put a hovering effect on the first back ground photo to give users a good experience when the mouse hovers over the picture or the booking button. As a user i wouldn't want a website that gives information and get me involved as a fan as well which i think both these matter have been addressed through the sign up for newsletter and joining the fan club. 
-- Mock up : https://app.moqups.com//tdchipatiko07@gmail.com/7aw4CB4xje/edit/page/ad64222d5 
+3. Colours : I selected black as the theme color of the website because "Black adds a sense of luxury and value" and “ Black is timeless & classic”. Also yellow, gold and orange give a mix of excitement and attention to the important information and the buttons to buy
+4. Pages : Instead of having a home page, then tours page and news page i decided to have all these important features on the same page. This was meant to make the home page informative at first glance and it was also meant limit the number of pages that were going to be on the website. I didn't want the users to have too many pages to go through and end up boring them or making the user lose interest. More over the shop caters for all the purchases the user/fans may want from merchandise, downloading and music ordering.
+5. Other UX : I put a hovering effect on the first back ground photo to give users a good experience when the mouse hovers over the picture or the booking button. As a user i wouldn't want a website that gives information and get me involved as a fan as well which i think both these matter have been addressed through the sign up for newsletter and joining the fan club. 
+6. Mock up : https://app.moqups.com//tdchipatiko07@gmail.com/7aw4CB4xje/edit/page/ad64222d5 
 
 
 ## Features
@@ -64,18 +64,18 @@ This project is a website for the Monkees Band.
 - I also used font-awesome to give some nice decorations when necessary
 - i used bootstrap Carousel for photo navigation 
 - Modals Forms:
-+ - also modals forms for the login and Joinfanclub button
+    + - also modals forms for the login and Joinfanclub button
 - Javascript onclick event : for the music on click music button
 
 ## Testing
 
 - The website is responsive on all pages and though there is gap on the home page when its on the mobile size screens.
 - Modal also works well on all the screen sizes
-+ - If you go and click the login button on top of the website page.
-+ - try to submit a fake email without @
-+ - an error message will be run to ask for the address with @
-+ - then try and submit a correct email then it goes through
-+ - this applies also with button for fanclub
+    + - If you go and click the login button on top of the website page.
+    + - try to submit a fake email without @
+    + - an error message will be run to ask for the address with @
+    + - then try and submit a correct email then it goes through
+    + - this applies also with button for fanclub
 - Music page also play music on all the sizes
 
 ## Deployment
