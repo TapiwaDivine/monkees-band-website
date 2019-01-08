@@ -19,18 +19,18 @@ This project is a website for the Monkees Band.
 ## UX
 
 1. This Website is for the Monkees Band who want to connect with fans and potential fans through:
-    +  - latest news about the band
-    +  - Information about tours and concert dates
-    +  - Getting to know the Band and its members through profiling
-    +  - Visitors will be able to Join the Fanclub or login to their account if they are already part of the Fanclub
-    +  - The is also an option to sign up for newsletters
-    +  - visitors will also be able to follow the band via official social media handles
+    +  Latest news about the band
+    +  Information about tours and concert dates
+    +  Getting to know the Band and its members through profiling
+    +  Visitors will be able to Join the Fanclub or login to their account if they are already part of the Fanclub
+    +  The is also an option to sign up for newsletters
+    +  Visitors will also be able to follow the band via official social media handles
     
 2. Sales: On this website visitor will be able to: 
-    +  - purchase cheaper tickets to up coming concerts.
-    +  - listen to the monkees music on website and purchase music. 
-    +  - purchase monkees merchandise from the website shop page.
-    +  - book the band to perfom at their wedding.
+    +  Purchase cheaper tickets to up coming concerts.
+    +  Listen to the monkees music on website and purchase music. 
+    +  Purchase monkees merchandise from the website shop page.
+    +  Book the band to perfom at their wedding.
   
 3. Colours : I selected black as the theme color of the website because "Black adds a sense of luxury and value" and “ Black is timeless & classic”. Also yellow, gold and orange give a mix of excitement and attention to the important information and the buttons to buy
 4. Pages : Instead of having a home page, then tours page and news page i decided to have all these important features on the same page. This was meant to make the home page informative at first glance and it was also meant limit the number of pages that were going to be on the website. I didn't want the users to have too many pages to go through and end up boring them or making the user lose interest. More over the shop caters for all the purchases the user/fans may want from merchandise, downloading and music ordering.
@@ -71,11 +71,11 @@ This project is a website for the Monkees Band.
 
 - The website is responsive on all pages and though there is gap on the home page when its on the mobile size screens.
 - Modal also works well on all the screen sizes
-    + - If you go and click the login button on top of the website page.
-    + - try to submit a fake email without @
-    + - an error message will be run to ask for the address with @
-    + - then try and submit a correct email then it goes through
-    + - this applies also with button for fanclub
+    + If you go and click the login button on top of the website page.
+    + Try to submit a fake email without @
+    + An error message will be run to ask for the address with @
+    + Then try and submit a correct email then it goes through
+    + This applies also with button for fanclub
 - Music page also play music on all the sizes
 
 ## Deployment
@@ -85,17 +85,17 @@ https://github.com/TapiwaDivine/monkees-band-website
 ## Credits
 
 ### Content
-- the navbar for the project was copied from getbootstrap.com and the modifying tips on rendering logo were learned from stackflow
-- the footer was copied from bootstrap.md and adjusted a little as well
-- the modal was copied from the bootstrap-miniproject on this course.
-- the javascript was copied from w3schools.com and with minor adjustments to the final product.
-- the Carousel was copied from getbootstrap.com with none adjustments.
+- The navbar for the project was copied from getbootstrap.com and the modifying tips on rendering logo were learned from stackflow
+- The footer was copied from bootstrap.md and adjusted a little as well
+- The modal was copied from the bootstrap-miniproject on this course.
+- The javascript was copied from w3schools.com and with minor adjustments to the final product.
+- The Carousel was copied from getbootstrap.com with none adjustments.
 - All the content that on the band and albums were copied from wikipedia article about the specified band member respectively
 
 ### Media
 All image that i have in this projects were acquired from different sources via google search
 
 ### Acknowledgements
-- i recieved inspiration from the rollingstones.com and zacbrown.com 
+- I recieved inspiration from the rollingstones.com and zacbrown.com 
 - I also acknowledge the influence of stackflow in this project and web zone youtube channel for the zoom out effect code which i modified a little
 - Also the review and advise from Mentor 
