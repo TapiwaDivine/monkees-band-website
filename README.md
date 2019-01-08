@@ -64,7 +64,7 @@ This project is a website for the Monkees Band.
 - I also used font-awesome to give some nice decorations when necessary
 - i used bootstrap Carousel for photo navigation 
 - Modals Forms:
-    + - also modals forms for the login and Joinfanclub button
+    +  also modals forms for the login and Joinfanclub button
 - Javascript onclick event : for the music on click music button
 
 ## Testing
@@ -93,7 +93,7 @@ https://github.com/TapiwaDivine/monkees-band-website
 - All the content that on the band and albums were copied from wikipedia article about the specified band member respectively
 
 ### Media
-All image that i have in this projects were acquired from different sources via google search
+- All image that i have in this projects were acquired from different sources via random google search
 
 ### Acknowledgements
 - I recieved inspiration from the rollingstones.com and zacbrown.com 
