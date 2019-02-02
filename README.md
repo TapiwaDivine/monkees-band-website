@@ -85,10 +85,10 @@ https://github.com/TapiwaDivine/monkees-band-website
 ## Credits
 
 ### Content
-- The navbar for the project was copied from getbootstrap.com and the modifying tips on rendering logo were learned from stackflow
-- The footer was copied from bootstrap.md and adjusted a little as well
-- The modal was copied from the bootstrap-miniproject on this course.
-- The javascript was copied from w3schools.com and with minor adjustments to the final product.
+- The navbar for the project came from getbootstrap.com and the modifying tips on rendering logo were learned from stackflow
+- The footer was copied from bootstrap.md and was adjusted  as well
+- The modal i used the one from the example in bootstrap-miniproject on this course.
+- The javascript was came from w3schools.com and with minor adjustments to the final product.
 - The Carousel was copied from getbootstrap.com with none adjustments.
 - All the content that on the band and albums were copied from wikipedia article about the specified band member respectively
 
